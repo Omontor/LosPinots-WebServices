@@ -10,6 +10,6 @@
         "url": "https://peanut.agency"
         },
     "dependencies": {
-        "https://github.com/mtschoen/JSONObject": "2.1.2"
+        "https://github.com/mtschoen/JSONObject.git": "2.1.2"
     }
 }
