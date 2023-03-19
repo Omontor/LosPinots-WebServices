@@ -8,8 +8,5 @@
         "name": "Oliver Montor, Emilio Santillana, Peanut Agency",
         "email": "contacto@peanut.agncy",
         "url": "https://peanut.agency"
-        },
-    "dependencies": {
-        "https://github.com/mtschoen/JSONObject.git": "2.1.2"
-    }
+        }
 }
