@@ -1,4 +1,4 @@
-using LosPinots;
+using LosPinotsWebServicesSDK;
 
 public class Register : Http
 {

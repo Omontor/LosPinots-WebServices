@@ -4,7 +4,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace LosPinots
+namespace LosPinotsWebServicesSDK
 {
     public abstract class Http : MonoBehaviour
     {

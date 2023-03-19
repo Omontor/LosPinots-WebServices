@@ -1,5 +1,5 @@
 using Defective.JSON;
-using LosPinots;
+using LosPinotsWebServicesSDK;
 using UnityEngine;
 
 public class Login : Http
