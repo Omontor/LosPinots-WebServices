@@ -1,0 +1,15 @@
+{
+    "name": "com.peanutagency.lospinotswebservices",
+    "version": "1.0.0",
+    "displayName": "Los Pinots WebServices SDK.",
+    "unity": "2021.3",
+    "description": "Este paquete sirve para conectar proyectos de Unity con los sitemas de backend desarrollados por Peanut Agency. Con este paquete podrás implementar funcionalidad como Login, Registro, Subir/Bajar datos, Analytics.",
+    "author": { 
+        "name": "Oliver Montor, Emilio Santillana, Peanut Agency",
+        "email": "contacto@peanut.agncy",
+        "url": "https://peanut.agency"
+        },
+    "dependencies": {
+        "https://github.com/mtschoen/JSONObject": "2.1.2"
+    }
+}
