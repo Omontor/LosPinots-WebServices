@@ -3,7 +3,6 @@ using LosPinotsWebServicesSDK;
 using UnityEngine;
 using SimpleJSON;
 
-;
 public class Login : Http
 {
     public string email, password;
