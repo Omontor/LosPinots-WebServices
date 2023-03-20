@@ -1,7 +1,9 @@
-using Defective.JSON;
+
 using LosPinotsWebServicesSDK;
 using UnityEngine;
+using SimpleJSON;
 
+;
 public class Login : Http
 {
     public string email, password;
@@ -14,10 +16,10 @@ public class Login : Http
 
     protected override void FillData(string jsonString)
     {
-        var json = new JSONObject(jsonString);
+        var json = JSON.Parse(jsonString);
 
         var go = new GameObject("UserData"); 
         var userData = go.AddComponent<UserData>();
-        userData.SetToken(json["token"].stringValue); 
+        userData.SetToken(json["token"]); 
     }
 }
