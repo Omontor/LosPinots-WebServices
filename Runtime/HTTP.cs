@@ -9,7 +9,7 @@ namespace LosPinotsWebServicesSDK
     public abstract class Http : MonoBehaviour
     {
         private const string ApiUrl = "https://yourdomain.com/api/"; //SERVER DOMAIN
-        [SerializeField]protected string route;
+        public string route;
         private Uri Uri => new Uri(ApiUrl + route);
 
         protected WWWForm form;
